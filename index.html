@@ -1,1 +1,139 @@
-Hello World
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Portfolio | Jo Bloggs - Sheffield Computer Science Graduate</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        /* Custom styles */
+        body {
+            background-color: #f8f9fa;
+            /* Light gray background */
+        }
+
+        header {
+            background-color: #ffc107;
+            /* Orange header background */
+            padding: 20px 0;
+        }
+
+        header h1,
+        header h2 {
+            color: #343a40;
+            /* Dark text color */
+            text-align: center;
+        }
+
+        .container {
+            margin-top: 20px;
+        }
+
+        .project-title {
+            font-size: 24px;
+            font-weight: bold;
+            color: #343a40;
+            /* Dark text color */
+            padding-top: 10px;
+        }
+
+        .project-type {
+            color: #ffc107;
+            /* Orange text color */
+        }
+
+        .project-desc {
+            text-align: left;
+            font-style: italic;
+            color: grey;
+        }
+
+        .project-link,
+        .project-link:visited {
+            font-style: italic;
+            color: #ffc107;
+            /* Orange link color */
+            text-decoration: none;
+        }
+
+        .project-link:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <div class="container">
+            <h1>Jo Bloggs - Sheffield Computer Science Graduate</h1>
+            <h2>A Sheffield computer science graduate's portfolio site.</h2>
+            <section id="downloads">
+                <a href="/cs_portfolio" class="btn btn-primary">Portfolio</a>
+                <a href="/cs_portfolio/about" class="btn btn-primary">About Me</a>
+                <a href="/cs_portfolio/cv" class="btn btn-primary">Curriculum Vitae</a>
+                <a href="/cs_portfolio/course" class="btn btn-primary">My Course</a>
+            </section>
+        </div>
+    </header>
+
+    <div class="container">
+        <section id="main_content">
+            <p class="project-title">Spoof Invaders: <span class="project-type">Pure C++ Project</span></p>
+            <p><img src="https://sumo-digital-academy.github.io/cs_portfolio/assets/images/Screenshot.png"
+                    alt="ScreenshotA-Image" class="img-fluid"></p>
+            <div class="project-desc">
+                <ul>
+                    <li>A small C++ game coded completely by me</li>
+                    <li>Demonstrates use of DirectX 11 and my own shaders</li>
+                    <li>Includes OO C++ features like polymorphism and inheritance</li>
+                </ul>
+            </div>
+            <p>Access the GitHub repository <a href="https://www.example.com" class="project-link">HERE</a></p>
+            <hr>
+            <p class="project-title">AAA-mazing Grace: <span class="project-type">Unreal C++ Project</span></p>
+            <p><img src="https://sumo-digital-academy.github.io/cs_portfolio/assets/images/Screenshot.png"
+                    alt="ScreenshotB-Image" class="img-fluid"></p>
+            <div class="project-desc">
+                <ul>
+                    <li>Group project: I coded the procedural maze generation</li>
+                    <li>Demonstrates custom Blueprint nodes written in C++</li>
+                    <li>Full project download <a href="https://www.example.com">HERE</a> (8GB)</li>
+                </ul>
+            </div>
+            <p>Access the GitHub repository with just my C++ code <a href="https://www.example.com"
+                    class="project-link">HERE</a></p>
+            <hr>
+            <p class="project-title">Indie-Spensable: <span class="project-type">Unity C# Project</span></p>
+            <p><img src="https://sumo-digital-academy.github.io/cs_portfolio/assets/images/Screenshot.png"
+                    alt="ScreenshotC-Image" class="img-fluid"></p>
+            <div class="project-desc">
+                <ul>
+                    <li>Individual project coded completely by me</li>
+                    <li>Demonstrates use of Unity DOTS</li>
+                    <li>Full project download <a href="https://www.example.com">HERE</a> (2GB)</li>
+                </ul>
+            </div>
+            <p>Access the GitHub repository with just my C# code <a href="https://www.example.com"
+                    class="project-link">HERE</a></p>
+        </section>
+    </div>
+
+    <footer>
+        <div class="container">
+            <section id="footer">
+                <a href="/cs_portfolio/index-a" class="btn btn-primary">Toggle Annotated Mark-Up for This Page</a>
+            </section>
+        </div>
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+</body>
+
+</html>
